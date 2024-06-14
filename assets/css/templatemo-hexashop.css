@@ -734,47 +734,19 @@ Footer
 */
 
 footer {
-  margin-top: 60px;
-  padding: 60px 0px 30px 0px;
+  margin-top: 10px;
+  padding: 20px 0px 30px 0px;
   background-color: #2a2a2a;
 }
 
-footer .logo {
-  margin-bottom: 20px;
-}
-
-footer ul li {
-  display: block;
-  margin-bottom: 10px;
-}
-
-footer ul li a {
-  font-size: 14px;
-  color: #fff;
-  transition: all .3s;
-}
-
-footer ul li a:hover {
-  color: #aaa;
-}
-
-footer h4 {
-  letter-spacing: 0.5px;
-  font-size: 16px;
-  color: #fff;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
 footer .under-footer {
-  margin-top: 30px;
-  padding-top: 30px;
+  margin-top: 10px;
+  padding-top: 10px;
   text-align: center;
-  border-top: 1px solid rgba(250,250,250,0.3);
 }
 
 footer .under-footer ul {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 footer .under-footer ul li {
@@ -797,37 +769,105 @@ footer .under-footer a {
 }
 
 footer .under-footer a:hover {
-  color: #c66;
+  color: white;
 }
 
 /* 
 ---------------------------------------------
-Pages
+Carver-Hawkeye Arena
 --------------------------------------------- 
 */
 
-.page-heading {
+.carver-heading {
   margin-top: 160px;
   margin-bottom: 30px;
-  background-image: url(../images/products-page-heading.jpg);
+  background-image: url(../images/carver-arena.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.page-heading .inner-content {
+.carver-heading .inner-content {
   padding: 150px 0px;
   text-align: center;
 }
 
-.page-heading .inner-content h2 {
+.carver-heading .inner-content h2 {
   font-size: 52px;
   color: #fff;
   font-weight: 700;
   margin-bottom: 15px;
 }
 
-.page-heading .inner-content span {
+.carver-heading .inner-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+}
+
+/* 
+---------------------------------------------
+Kinnick Stadium
+--------------------------------------------- 
+*/
+
+.kinnick-heading {
+  margin-top: 160px;
+  margin-bottom: 30px;
+  background-image: url(../images/kinnick-stadium.webp);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.kinnick-heading .inner-content {
+  padding: 150px 0px;
+  text-align: center;
+}
+
+.kinnick-heading .inner-content h2 {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.kinnick-heading .inner-content span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  font-style: italic;
+}
+
+/* 
+---------------------------------------------
+Other
+--------------------------------------------- 
+*/
+
+.other-heading {
+  margin-top: 160px;
+  margin-bottom: 30px;
+  background-image: url(../images/iowa-flags.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.other-heading .inner-content {
+  padding: 150px 0px;
+  text-align: center;
+}
+
+.other-heading .inner-content h2 {
+  font-size: 52px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.other-heading .inner-content span {
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -1191,10 +1231,6 @@ Contact Us
   margin-bottom: 40px;
 }
 
-.contact-us #map {
-  margin-right: 30px;
-}
-
 .contact-us form input {
   width: 100%;
   height: 44px;
@@ -1210,6 +1246,26 @@ Contact Us
 }
 
 .contact-us form input::focus {
+  border-color: #2a2a2a;
+  border-radius: 0px;
+}
+
+.contact-us form select {
+  width: 100%;
+  height: 44px;
+  margin-top: 30px;
+  line-height: 44px;
+  padding: 0px 15px;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+  color: #aaa;
+  border-radius: 0px;
+  border: 1px solid #7a7a7a;
+  box-shadow: none;
+}
+
+.contact-us form select::focus {
   border-color: #2a2a2a;
   border-radius: 0px;
 }

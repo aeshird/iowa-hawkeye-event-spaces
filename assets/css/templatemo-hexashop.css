@@ -54,7 +54,7 @@ body,
 html {
 	font-family: Poppins, sans-serif;
 	font-weight: 400;
-	background-color: #fff;
+	background-color: white;
 	font-size: 16px;
 	-ms-text-size-adjust: 100%;
 	-webkit-font-smoothing: antialiased;
@@ -87,18 +87,18 @@ p {
 
 body,
 html {
-	background: #fff;
+	background: white;
 	font-family: Poppins, sans-serif
 }
 
 ::selection {
-	background: #2a2a2a;
-	color: #fff
+	background: #63666a;
+	color: white
 }
 
 ::-moz-selection {
-	background: #2a2a2a;
-	color: #fff
+	background: #63666a;
+	color: white
 }
 
 @media (max-width:991px) {
@@ -111,8 +111,8 @@ html {
 
 .main-border-button a {
 	font-size: 13px;
-	color: #fff;
-	border: 1px solid #fff;
+	color: white;
+	border: 1px solid white;
 	padding: 12px 25px;
 	display: inline-block;
 	font-weight: 500;
@@ -120,13 +120,13 @@ html {
 }
 
 .main-border-button a:hover {
-	background-color: #fff;
+	background-color: white;
 	color: #63666a
 }
 
 .main-text-button a {
 	font-size: 13px;
-	color: #fff;
+	color: white;
 	font-weight: 600;
 	transition: all .3s
 }
@@ -138,30 +138,29 @@ html {
 .section-heading h2 {
 	font-size: 34px;
 	font-weight: 700;
-	color: #2a2a2a
+	color: #000000
 }
 
 .section-heading span {
 	font-size: 14px;
-	color: #63666a;
+	color: #000000;
 	font-style: italic;
 	font-weight: 400
 }
 
 .header-area {
-    border-bottom: 3px dotted #eee;
-    box-shadow: none;
-    background-color: #fff;
-    position: relative; /* Ensure this is set to relative */
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    height: 100px;
-    -webkit-transition: all .5s ease 0s;
-    -moz-transition: all .5s ease 0s;
-    -o-transition: all .5s ease 0s;
-    transition: all .5s ease 0s;
+	box-shadow: none;
+	background-color: white;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	height: 100px;
+	-webkit-transition: all .5s ease 0s;
+	-moz-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s
 }
 
 .header-area .main-nav {
@@ -171,7 +170,7 @@ html {
 
 .header-area .main-nav .logo {
 	line-height: 100px;
-	color: #fff;
+	color: white;
 	font-size: 28px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -184,15 +183,15 @@ html {
 }
 
 .header-area .main-nav .logo img {
-    max-width: 325px; /* Adjust the size as needed */
-    height: auto;
-    display: block;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(-50px, 25px); /* Move it more to the left */
+	max-width: 325px;
+	height: auto;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translate(-50px, 25px)
 }
 
 .header-area .main-nav .nav {
@@ -221,7 +220,7 @@ html {
 	display: block;
 	font-weight: 600;
 	font-size: 15px;
-	color: #2a2a2a;
+	color: #000000;
 	text-transform: capitalize;
 	-webkit-transition: all .3s ease 0s;
 	-moz-transition: all .3s ease 0s;
@@ -234,11 +233,11 @@ html {
 }
 
 .header-area .main-nav .nav li a {
-	color: #2a2a2a
+	color: #000000
 }
 
 .header-area .main-nav .nav li:hover a {
-	color: #63666A !important
+	color: #FFCD00 !important
 }
 
 .header-area .main-nav .menu-trigger {
@@ -261,7 +260,7 @@ html {
 	-o-transition: all .4s;
 	-webkit-transition: all .4s;
 	transition: all .4s;
-	background-color: #1e1e1e;
+	background-color: #000000;
 	display: block;
 	position: absolute;
 	width: 30px;
@@ -275,7 +274,7 @@ html {
 	-o-transition: all .4s;
 	-webkit-transition: all .4s;
 	transition: all .4s;
-	background-color: #1e1e1e;
+	background-color: #000000;
 	display: block;
 	position: absolute;
 	width: 30px;
@@ -331,16 +330,16 @@ html {
 
 @media (max-width:767px) {
 	.header-area .main-nav .logo {
-		color: #1e1e1e
+		color: #000000
 	}
 
 	.header-area.header-sticky .nav li a:hover {
-		color: #63666A !important;
+		color: #63666a !important;
 		opacity: 1
 	}
 
 	.header-area {
-		background-color: #f7f7f7;
+		background-color: white;
 		padding: 0 15px;
 		height: 100px;
 		box-shadow: none;
@@ -375,7 +374,7 @@ html {
 	}
 
 	.header-area .main-nav .nav li:first-child {
-		border-top: 1px solid #eee
+		border-top: 1px solid #63666A
 	}
 
 	.header-area.header-sticky .nav {
@@ -384,8 +383,8 @@ html {
 
 	.header-area .main-nav .nav li {
 		width: 100%;
-		background: #fff;
-		border-bottom: 1px solid #eee;
+		background: white;
+		border-bottom: 1px solid #63666A;
 		padding-left: 0 !important;
 		padding-right: 0 !important
 	}
@@ -395,13 +394,13 @@ html {
 		line-height: 50px !important;
 		padding: 0 !important;
 		border: none !important;
-		background: #f7f7f7 !important;
-		color: #191a20 !important
+		background: white !important;
+		color: #000000 !important
 	}
 
 	.header-area .main-nav .nav li a:hover {
-		background: #eee !important;
-		color: #63666A !important
+		background: #63666A !important;
+		color: #63666a !important
 	}
 }
 
@@ -412,13 +411,39 @@ html {
 }
 
 .main-banner {
-	border-bottom: 3px dotted #eee;
-	padding-top: 160px;
-	padding-bottom: 30px
+	padding-top: 25px;
+	padding-bottom: 75px
+}
+
+.main-banner .container-fluid {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch
+}
+
+.main-banner .left-content,
+.main-banner .right-content {
+	height: 100%
+}
+
+.main-banner .left-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%
+}
+
+.main-banner .left-content .thumb {
+	position: relative;
+	width: 100%;
+	height: 100%
 }
 
 .main-banner .left-content .thumb img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	overflow: hidden
 }
 
@@ -430,7 +455,7 @@ html {
 }
 
 .main-banner .left-content .inner-content h4 {
-	color: #fff;
+	color: white;
 	margin-top: -10px;
 	font-size: 52px;
 	font-weight: 700;
@@ -439,24 +464,40 @@ html {
 
 .main-banner .left-content .inner-content span {
 	font-size: 16px;
-	color: #fff;
+	color: white;
 	font-weight: 400;
 	font-style: italic;
 	display: block;
 	margin-bottom: 30px
 }
 
+.main-banner .right-content {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 100%
+}
+
+.main-banner .right-content .col-lg-6 {
+	padding: 10px;
+	box-sizing: border-box
+}
+
 .main-banner .right-content .right-first-image {
-	margin-bottom: 28.5px
+	margin-bottom: 0;
+	flex: 1 1 50%;
+	height: 100%
 }
 
 .main-banner .right-content .right-first-image .thumb {
 	position: relative;
-	text-align: center
+	height: 100%
 }
 
 .main-banner .right-content .right-first-image .thumb img {
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	overflow: hidden
 }
 
@@ -469,59 +510,39 @@ html {
 }
 
 .main-banner .right-content .right-first-image .thumb .inner-content h4 {
-	color: #fff;
+	color: white;
 	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 15px
 }
 
-.main-banner .right-content .right-first-image .thumb .inner-content span {
-	font-size: 16px;
-	color: #fff;
-	font-style: italic
-}
-
 footer {
-	margin-top: 10px;
-	padding: 20px 0 30px 0;
-	background-color: #2a2a2a
+	padding: 10px 0 20px 0;
+	background-color: #FFCD00
 }
 
 footer .under-footer {
-	margin-top: 10px;
-	padding-top: 10px;
+	margin-top: 5px;
+	padding-top: 5px;
 	text-align: center
 }
 
-footer .under-footer ul {
-	margin-top: 10px
-}
-
-footer .under-footer ul li {
-	display: inline-block;
-	margin: 0 10px
-}
-
-footer .under-footer ul li a {
-	font-size: 22px
-}
-
 footer .under-footer p {
-	color: #fff;
+	color: #000000;
 	font-size: 14px;
 	font-weight: 300
 }
 
 footer .under-footer a {
-	color: #cff
+	color: #000000
 }
 
 footer .under-footer a:hover {
-	color: #fff
+	color: white
 }
 
 .carver-heading {
-	margin-top: 100px;
+	margin-top: 25px;
 	margin-bottom: 30px;
 	background-image: url(../images/carver-banner.jpg);
 	background-position: center center;
@@ -536,7 +557,7 @@ footer .under-footer a:hover {
 
 .carver-heading .inner-content h2 {
 	font-size: 52px;
-	color: #fff;
+	color: white;
 	font-weight: 700;
 	margin-bottom: 15px
 }
@@ -544,12 +565,12 @@ footer .under-footer a:hover {
 .carver-heading .inner-content span {
 	font-size: 16px;
 	font-weight: 500;
-	color: #fff;
+	color: white;
 	font-style: italic
 }
 
 .kinnick-heading {
-	margin-top: 160px;
+	margin-top: 25px;
 	margin-bottom: 30px;
 	background-image: url(../images/kinnick-banner.webp);
 	background-position: center center;
@@ -564,7 +585,7 @@ footer .under-footer a:hover {
 
 .kinnick-heading .inner-content h2 {
 	font-size: 52px;
-	color: #fff;
+	color: white;
 	font-weight: 700;
 	margin-bottom: 15px
 }
@@ -572,12 +593,12 @@ footer .under-footer a:hover {
 .kinnick-heading .inner-content span {
 	font-size: 16px;
 	font-weight: 500;
-	color: #fff;
+	color: white;
 	font-style: italic
 }
 
 .contact-heading {
-	margin-top: 160px;
+	margin-top: 25px;
 	margin-bottom: 30px;
 	background-image: url(../images/contact-banner.jpeg);
 	background-position: center center;
@@ -592,7 +613,7 @@ footer .under-footer a:hover {
 
 .contact-heading .inner-content h2 {
 	font-size: 52px;
-	color: #fff;
+	color: white;
 	font-weight: 700;
 	margin-bottom: 15px
 }
@@ -600,12 +621,12 @@ footer .under-footer a:hover {
 .contact-heading .inner-content span {
 	font-size: 16px;
 	font-weight: 500;
-	color: #fff;
+	color: white;
 	font-style: italic
 }
 
 .other-heading {
-	margin-top: 160px;
+	margin-top: 25px;
 	margin-bottom: 30px;
 	background-image: url(../images/iowa-flags.jpeg);
 	background-position: center center;
@@ -620,7 +641,7 @@ footer .under-footer a:hover {
 
 .other-heading .inner-content h2 {
 	font-size: 52px;
-	color: #fff;
+	color: white;
 	font-weight: 700;
 	margin-bottom: 15px
 }
@@ -628,200 +649,200 @@ footer .under-footer a:hover {
 .other-heading .inner-content span {
 	font-size: 16px;
 	font-weight: 500;
-	color: #fff;
+	color: white;
 	font-style: italic
 }
 
 #products .section-heading {
-    text-align: center;
-    margin-bottom: 60px;
-    margin-top: 80px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px
 }
 
 #products .item {
-    margin-bottom: 30px;
+	margin-bottom: 75px
 }
 
 #products .thumb img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block
 }
 
 #products .thumb {
-    height: 450px; /* Set a specific height */
-    width: 100%;
-    overflow: hidden;
+	height: 350px;
+	width: 100%;
+	overflow: hidden
 }
 
 #products .item .down-content {
-    padding-top: 20px;
-    position: relative;
-    z-index: 3;
-    background-color: #fff;
+	position: center;
+	z-index: 3;
+	background-color: white
 }
 
 #products .item .down-content h4 {
-    font-size: 22px;
-    color: #2a2a2a;
-    font-weight: 700;
-    margin-bottom: 8px;
+	font-size: 22px;
+	color: #000000;
+	font-weight: 700;
+	margin-bottom: 8px
 }
 
 #products .item .down-content span {
-    font-size: 18px;
-    color: #a1a1a1;
-    font-weight: 500;
-    display: block;
+	font-size: 18px;
+	color: #000000;
+	font-weight: 500;
+	display: block
 }
 
 .about-us {
-    margin-top: 80px;
+	margin-top: 80px
 }
 
 .about-us .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column
 }
 
 .about-us .row {
-    display: flex;
-    align-items: center; /* Center items vertically */
+	display: flex;
+	align-items: center
 }
 
 .about-us .left-image img {
-    width: 100%;
-    overflow: hidden;
+	width: 100%;
+	overflow: hidden
 }
 
 .about-us .right-content {
-    margin-left: 30px;
+	margin-left: 30px
 }
 
 .about-us .right-content h4 {
-    font-size: 34px;
-    font-weight: 700;
-    color: #2a2a2a;
+	font-size: 34px;
+	font-weight: 700;
+	color: #000000
 }
 
 .about-us .right-content p {
-    font-size: 16px;
-    text-align: justify;
-    color: #63666A;
-    font-weight: 500;
-    display: block;
-    margin-top: 25px;
+	font-size: 16px;
+	text-align: justify;
+	color: #000000;
+	font-weight: 500;
+	display: block;
+	margin-top: 25px
 }
 
 .our-team {
-    margin-top: 100px;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    border-top: 3px dotted #eee;
+	margin-top: 100px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	border-top: 3px dotted #BBBCBC
 }
 
 .our-team .section-heading {
-    margin-bottom: 60px;
-    text-align: center;
+	margin-bottom: 60px;
+	text-align: center
 }
 
 .our-team .section-heading h2 {
-    margin-bottom: 10px;
+	margin-bottom: 10px
 }
 
 .our-team .team-item .thumb {
-    position: relative;
-    height: 300px; /* Set a fixed height */
-    width: 100%; /* Ensure full width */
-    overflow: hidden; /* Hide overflow */
+	position: relative;
+	height: 300px;
+	width: 100%;
+	overflow: hidden
 }
 
 .our-team .team-item .thumb img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; /* Ensure the image covers the container */
+	height: 100%;
+	width: 100%;
+	object-fit: cover
 }
 
 .our-team .team-item .down-content {
-    text-align: center;
-    padding-top: 25px;
+	text-align: center;
+	padding-top: 25px
 }
 
 .our-team .team-item .down-content h4 {
-    font-size: 24px;
-    color: #2a2a2a;
-    font-weight: 700;
-    margin-bottom: 5px;
+	font-size: 24px;
+	color: #000000;
+	font-weight: 700;
+	margin-bottom: 5px
 }
 
 .our-team .team-item .down-content span {
-    font-size: 14px;
-    color: #a1a1a1;
-    font-weight: 500;
-    display: block;
-    font-style: italic;
+	font-size: 14px;
+	color: #63666A;
+	font-weight: 500;
+	display: block;
+	font-style: italic
 }
 
 .our-services {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    border-top: 3px dotted #eee;
-	border-bottom: 3px dotted #eee
+	padding-top: 90px;
+	padding-bottom: 90px;
+	border-top: 3px dotted #BBBCBC;
 }
 
 .our-services .section-heading {
-    margin-bottom: 60px;
-    text-align: center;
+	margin-bottom: 60px;
+	text-align: center
 }
 
 .our-services .container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
 }
 
 .our-services .row {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%
 }
 
-.our-services .col-lg-4, .our-services .col-lg-6, .our-services .col-lg-12 {
-    display: flex;
-    align-items: stretch;
-    padding: 10px;
+.our-services .col-lg-12,
+.our-services .col-lg-4,
+.our-services .col-lg-6 {
+	display: flex;
+	align-items: stretch;
+	padding: 10px
 }
 
 .our-services .service-item {
-    padding: 25px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center the content vertically */
-    align-items: center; /* Center the content horizontally */
-    flex: 1;
-    margin-bottom: 20px;
+	padding: 25px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+	margin-bottom: 20px
 }
 
 .our-services .service-item h4 {
-    font-size: 24px;
-    font-weight: 700;
-    color: #000000;
-    margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: 700;
+	color: #000000;
+	margin-bottom: 20px
 }
 
 .our-services .service-item p {
-    font-size: 16px;
-	margin-bottom: 20px;
+	color: #63666A;
+	font-size: 16px;
+	margin-bottom: 20px
 }
 
 .contact-us {
 	margin-top: 90px;
-	border-bottom: 3px dotted #eee;
 	padding-bottom: 90px
 }
 
@@ -837,14 +858,14 @@ footer .under-footer a:hover {
 	font-size: 14px;
 	font-style: italic;
 	font-weight: 500;
-	color: #63666A;
+	color: #63666a;
 	border-radius: 0;
-	border: 1px solid #7a7a7a;
+	border: 1px solid #63666A;
 	box-shadow: none
 }
 
 .contact-us form input::focus {
-	border-color: #2a2a2a;
+	border-color: #000000;
 	border-radius: 0
 }
 
@@ -857,14 +878,14 @@ footer .under-footer a:hover {
 	font-size: 14px;
 	font-style: italic;
 	font-weight: 500;
-	color: #63666A;
+	color: #63666a;
 	border-radius: 0;
-	border: 1px solid #7a7a7a;
+	border: 1px solid #63666A;
 	box-shadow: none
 }
 
 .contact-us form select::focus {
-	border-color: #2a2a2a;
+	border-color: #000000;
 	border-radius: 0
 }
 
@@ -880,14 +901,14 @@ footer .under-footer a:hover {
 	font-size: 14px;
 	font-style: italic;
 	font-weight: 500;
-	color: #63666A;
+	color: #63666a;
 	border-radius: 0;
-	border: 1px solid #7a7a7a;
+	border: 1px solid #63666A;
 	box-shadow: none
 }
 
 .contact-us form textarea::focus {
-	border-color: #2a2a2a;
+	border-color: #000000;
 	border-radius: 0
 }
 
@@ -897,17 +918,17 @@ footer .under-footer a:hover {
 	display: inline-block;
 	text-align: center;
 	line-height: 44px;
-	background-color: #2a2a2a;
+	background-color: #000000;
 	box-shadow: none;
 	border: 1px solid transparent;
-	color: #fff;
+	color: white;
 	transition: all .3s
 }
 
 .contact-us form button:hover {
-	background-color: #fff;
-	border: 1px solid #2a2a2a;
-	color: #2a2a2a
+	background-color: white;
+	border: 1px solid #000000;
+	color: #000000
 }
 
 @media (max-width:992px) {

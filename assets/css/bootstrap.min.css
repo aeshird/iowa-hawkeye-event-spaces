@@ -1,10 +1,14 @@
 :root {
 	--primary-gold: #FFCD00;
-    --primary-gold: var(--primary-gold);
-    --primary-black: #000000;
+	--primary-gold: var(--primary-gold);
+	--primary-black: #000000;
 	--primary-black: var(--primary-black);
-	--secondary: var(--secondary);
-    --secondary: white;
+	--secondary-white: white;
+	--secondary-white: var(--secondary-white);
+	--secondary-gray: #63666A;
+	--secondary-gray: var(--secondary-gray);
+	--secondary-coolgray: #BBBCBC;
+	--secondary-coolgray: var(--secondary-coolgray);
 	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 }
@@ -17,7 +21,7 @@
 
 html {
 	font-family: sans-serif;
-	line-height: 1.15;
+	line-height: 1.15
 }
 
 footer,
@@ -81,20 +85,14 @@ small {
 	font-size: 80%
 }
 
-/* 
----------------------------------------------
-Main Pages
---------------------------------------------- 
-*/
-
 a.main {
-	color: white;
+	color: #fff;
 	text-decoration: none;
 	background-color: transparent
 }
 
 a.main:hover {
-	color: #FFCD00;
+	color: #ffcd00;
 	text-decoration: underline
 }
 
@@ -108,12 +106,6 @@ a.main:not([href]):not([class]):hover {
 	text-decoration: none
 }
 
-/* 
----------------------------------------------
-Other Pages
---------------------------------------------- 
-*/
-
 a {
 	color: var(--primary-black);
 	text-decoration: none;
@@ -121,7 +113,7 @@ a {
 }
 
 a:hover {
-	color: #FFCD00;
+	color: #ffcd00;
 	text-decoration: underline
 }
 

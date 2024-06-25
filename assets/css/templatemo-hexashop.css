@@ -121,7 +121,7 @@ html {
 
 .main-border-button a:hover {
 	background-color: white;
-	color: #63666a
+	color: #000000
 }
 
 .main-text-button a {
@@ -150,7 +150,7 @@ html {
 
 .header-area {
 	box-shadow: none;
-	background-color: white;
+	background-color: #ffcd00;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -209,7 +209,7 @@ html {
 
 .header-area .main-nav .nav li {
 	padding-left: 15px;
-	padding-right: 15px
+	padding-right: 10px
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -219,7 +219,7 @@ html {
 .header-area .main-nav .nav li a {
 	display: block;
 	font-weight: 600;
-	font-size: 15px;
+	font-size: 17px;
 	color: #000000;
 	text-transform: capitalize;
 	-webkit-transition: all .3s ease 0s;
@@ -233,11 +233,11 @@ html {
 }
 
 .header-area .main-nav .nav li a {
-	color: #000000
+	color: white
 }
 
 .header-area .main-nav .nav li:hover a {
-	color: #FFCD00 !important
+	color: #000000 !important
 }
 
 .header-area .main-nav .menu-trigger {
@@ -411,8 +411,8 @@ html {
 }
 
 .main-banner {
-	padding-top: 25px;
-	padding-bottom: 75px
+	padding-top: 50px;
+	padding-bottom: 50px
 }
 
 .main-banner .container-fluid {
@@ -542,8 +542,8 @@ footer .under-footer a:hover {
 }
 
 .carver-heading {
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-image: url(../images/carver-banner.jpg);
 	background-position: center center;
 	background-size: cover;
@@ -570,8 +570,8 @@ footer .under-footer a:hover {
 }
 
 .kinnick-heading {
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-image: url(../images/kinnick-banner.webp);
 	background-position: center center;
 	background-size: cover;
@@ -598,8 +598,8 @@ footer .under-footer a:hover {
 }
 
 .contact-heading {
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-image: url(../images/contact-banner.jpeg);
 	background-position: center center;
 	background-size: cover;
@@ -626,8 +626,8 @@ footer .under-footer a:hover {
 }
 
 .other-heading {
-	margin-top: 25px;
-	margin-bottom: 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-image: url(../images/iowa-flags.jpeg);
 	background-position: center center;
 	background-size: cover;
@@ -660,7 +660,7 @@ footer .under-footer a:hover {
 }
 
 #products .item {
-	margin-bottom: 75px
+	margin-bottom: 50px
 }
 
 #products .thumb img {
@@ -825,7 +825,7 @@ footer .under-footer a:hover {
 	justify-content: center;
 	align-items: center;
 	flex: 1;
-	margin-bottom: 20px
+	margin-bottom: 0px
 }
 
 .our-services .service-item h4 {
